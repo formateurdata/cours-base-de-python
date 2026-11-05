@@ -1,0 +1,14 @@
+[project]
+name = "goldencollar-python-bac2"
+version = "0.1.0"
+description = "Neuf séances d’initiation pratique à Python — Institut GoldenCollar"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "ipykernel==7.4.0",
+  "jupyterlab==4.6.4",
+  "nbclient==0.11.0",
+  "nbformat==5.11.1",
+]
+
+[tool.uv]
+package = false
